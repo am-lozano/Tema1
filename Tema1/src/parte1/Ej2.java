@@ -5,39 +5,27 @@ import java.util.Scanner;
 public class Ej2 {
 
 	public static void main(String[] args) {
-		
-	int aa;
-	int an;
-	int edad;
-	
-	//Pedimos el año actual
-	
-	System.out.println("Introduzca el año actual:");
-	
-	Scanner sc = new Scanner(System.in);
-	
-	aa = sc.nextInt();
-	
-	sc.close();
-	
-	//Pedimos el año de nacimiento
-	
-	System.out.println("Introduzca su año de nacimiento:");
-	
-	an = sc.nextInt();
-	
-	sc.close();
-	
-	//Mostramos la edad del usuario
-	
-	edad = aa + an;
-	
-	System.out.println("Su edad es " + edad );
-	
-	
-	
-	
-	
+
+		Scanner sc = new Scanner(System.in);
+
+		// Declramos una variable sin valor para pedir el valor por consola
+
+		int num;
+
+		// Pedimos por cconsola el valor de la variable
+
+		System.out.println("Introduzca su edad:");
+
+		// Cambiamos el valor de la variable, sumandole 1 unidad
+
+		num = sc.nextInt() + 1;
+
+		// Mostramos el resultado de la edad
+
+		System.out.println("Su edad el año que viene sera de: " + num);
+
+		sc.close();
+
 	}
 
 }
