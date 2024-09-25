@@ -21,28 +21,32 @@ public class Ej13 {
 		// Declaramos las variables
 
 		boolean lluvia;
-		boolean tareas;
+		boolean tarea;
 		boolean biblio;
+		
+		System.out.println("Responda con true, en caso afirmativo, y con false, en caso negativo, a las siguientes preguntas:\n");
 
 		// Pegruntamos las condiciones para salir a la calle
 
 		System.out.println("¿Esta lloviendo?");
-		
-		Scanner duda = new Scanner (System.in);
-		
-		lluvia = duda.nextBoolean();
-		
-		System.out.println("¿Tareas realizadas?");
-		
-		Scanner duda = new Scanner (System.in);
-		
-		tarea = duda.nextBoolean();
-		
-		System.out.println("¿Vas a ir a la biblioteca?");
-		
-		Scanner duda = new Scanner (System.in);
 
-		biblio = duda.nextBoolean();
+		Scanner sc = new Scanner(System.in);
+
+		lluvia = sc.nextBoolean();
+
+		System.out.println("¿Tareas realizadas?");
+
+		tarea = sc.nextBoolean();
+
+		System.out.println("¿Vas a ir a la biblioteca?");
+
+		biblio = sc.nextBoolean();
+		
+		//Hacemos la comparacion para saber si se puede o no salir a la calle
+
+		System.out.println(!lluvia && tarea || biblio ? "Si puedes salir" : "No puedes salir");
+
+		sc.close();
 		
 	}
 }
