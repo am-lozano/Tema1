@@ -13,8 +13,6 @@ public class Ej14 {
 		 * calificaciones (solo la parte entera) y como se usa en el expediente
 		 * académico (con decimales).
 		 */
-
-		Preguntar porque la nota del expediente lo redondea automaticamente
 		
 		// Declaramos las variables
 

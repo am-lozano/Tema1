@@ -26,6 +26,7 @@ public class EJ12 {
 		 * cambiar a lo largo del programa para calcular las ganancias
 		 */
 		
+		//En caso de poner float seria: final double PRECIO_MANZANAS = 2.35f; sino se pone la f da error
 		final double PRECIO_MANZANAS = 2.35;
 		final double PRECIO_PERAS = 1.95;
 		double total;

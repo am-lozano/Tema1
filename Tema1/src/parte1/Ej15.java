@@ -20,7 +20,7 @@ public class Ej15 {
 		
 		//Creamos la const IVA
 		
-		final int IVA = (21/100);
+		final double IVA = (0.21);
 		
 		//Pedimos el precio deseado por consola
 		

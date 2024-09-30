@@ -40,6 +40,9 @@ public class Ej6 {
 		double producto = n1 * n2;
 		double division = n1 / n2;
 		
+		//Si lo ponemos entre parentesis hace la suma, pero con * y / no hacen falta los parentesis
+		//System.out.println("La suma de " + (n1 + n2));
+		
 		System.out.println("La suma de " + n1 + " + " + n2 + " es = " + suma + "\n");
 		System.out.println("La resta de " + n1 + " + " + n2 + " es = " + resta + "\n");
 		System.out.println("El producto de " + n1 + " + " + n2 + " es = " + producto + "\n");
