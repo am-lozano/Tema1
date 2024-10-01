@@ -11,22 +11,26 @@ public class Ej5 {
 		 * segundos. La aplicación debe mostrar cuántas horas, minutos y segundos hay en
 		 * el número de segundos introducidos por el usuario.
 		 */
-		
-		//Variable para los segundos pedidos por consola
-		
-		int seg;
-		
-		
-		
-		//Pedimos la cantidad de segundos
-		
-		Scanner sc = new Scanner (System.in);
-		
-		seg = sc.nextInt();
-		
 
-		
-		
+		// Variable para los segundos pedidos por consola
+
+		int seg;
+
+		// Pedimos la cantidad de segundos
+
+		Scanner sc = new Scanner(System.in);
+
+		seg = sc.nextInt();
+
+		/*
+		 * arreglar
+		 * 
+		 * horas = segundos / 3600; 
+		 * minutos = (segundos % 3600) / 60;
+		 *  segundos = segundos % 60;
+		 * 
+		 */
+
 	}
 
 }
