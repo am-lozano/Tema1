@@ -13,8 +13,10 @@ public class Ej5 {
 		 */
 
 		// Variable para los segundos pedidos por consola
-
 		int seg;
+		int min;
+		int horas;
+		int seg_finales;
 
 		// Pedimos la cantidad de segundos
 
@@ -22,15 +24,19 @@ public class Ej5 {
 
 		seg = sc.nextInt();
 
-		/*
-		 * arreglar
-		 * 
-		 * horas = segundos / 3600; 
-		 * minutos = (segundos % 3600) / 60;
-		 *  segundos = segundos % 60;
-		 * 
-		 */
+		// Pedimos los segundos
+		System.out.println("Introduzca los segundos");
 
+		// Hacemos los calculos necesarios
+		horas = seg / 3600;
+		min = (seg % 3600) / 60;
+		seg_finales = seg % 60;
+
+		// Mostramos los resultados
+		System.out.println(horas + " h" + min + " min" + seg_finales + " s");
+
+		// Cerramos el escaner
+		sc.close();
 	}
 
 }
